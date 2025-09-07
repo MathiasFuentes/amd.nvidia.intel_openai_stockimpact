@@ -9,8 +9,8 @@ import textwrap
 # =========================
 # Ajusta estos nombres si tus CSV se llaman distinto:
 NVDA_CSV = "Nvidia_stock_data.csv"   # tu dataset existente de NVIDIA
-AMD_CSV  = "AMD_stock_2021_2025.csv"    # generado antes
-INTC_CSV = "INTC_stock_2021_2025.csv"   # generado antes
+AMD_CSV  = "AMD_stock_2020_2025.csv"    # generado antes
+INTC_CSV = "INTC_stock_2020_2025.csv"   # generado antes
 
 OUT_DIR = Path("event_charts")
 OUT_DIR.mkdir(exist_ok=True)
